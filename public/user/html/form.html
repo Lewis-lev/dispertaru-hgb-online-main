@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="navbar-dispertaru">
+      <a href="index.html" name="logo"><img class="logo" src="../image/logo.png" alt="">DISPERTARU DIY</a>
+      <a href="index.html">HOME</a>
+      <div class="dropdown">
+        <button class="dropbtn">FORM</button>
+        <div class="dropcontent">
+          <a href="form.html">Form 1</a>
+          <a href="form-lakwas.html">Form 2</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="container">
+
+      <form id="form" class="" action="ver.html" method="post">
+        <h2>Lengkapi data berikut</h2>
+        <div class="form-input" id="form1" action="index.html" method="post">
+          <div class="form">
+            <div class="input">
+              <label for="name">Nama lengkap</label>
+              <input type="text"  name="name" value="">
+            </div>
+            <div class="input">
+              <label for="alamat">Alamat</label>
+              <input type="text"  name="alamat" value="">
+            </div>
+            <div class="input">
+              <label for="ttl">Tempat, tanggal lahir</label>
+              <input type="text"  name="ttl" value="">
+            </div>
+            <div class="input">
+              <label for="hp">No handphone</label>
+              <input type="text"  name="hp" value="">
+            </div>
+            <div class="input">
+              <label for="email">Email</label>
+              <input type="text"  name="email" value="">
+            </div>
+            <div class="input">
+              <label for="pekerjaan">Pekerjaan</label>
+              <input type="text"  id="usaha" name="pekerjaan" onkeyup="success" value="">
+            </div>
+          </div>
+          <div class="btn-box">
+            <button type="button" id="next1" name="button"><i class="fa-solid fa-right-long arrow"></i></button>
+          </div>
+        </div>
+
+        <div class="form-input" id="form2" action="index.html" method="post">
+          <div class="form">
+            <div class="input">
+              <label for="nik">NIK</label>
+              <input type="text"  name="nik" value="">
+            </div>
+            <div class="input">
+              <label class="ghs" for=""></label>
+              <input class="ghs" type="text" name="" value="">
+            </div>
+            <div class="input">
+              <label for="ktp">Upload foto KTP anda</label>
+              <input type="file" name="ktp" value="">
+            </div>
+            <div class="input">
+              <label class="ghs" for=""></label>
+              <input class="ghs" type="text" name="" value="">
+            </div>
+            <div class="input">
+              <label class="ghs" for=""></label>
+              <input class="ghs" type="text" name="" value="">
+            </div>
+          </div>
+          <div class="btn-box">
+            <button type="button" id="back1" name="button"><i class="fa-solid fa-left-long arrow"></i></button>
+            <button type="button" id="next2" name="button"><i class="fa-solid fa-right-long arrow"></i></button>
+          </div>
+        </div>
+
+        <div class="form-input" id="form3" action="index.html" method="post">
+          <div class="form">
+            <div class="input">
+              <label for="detail">Upload detail permohonan anda</label>
+              <input type="file" name="detail" value="">
+            </div>
+            <div class="input">
+              <label class="ghs" for=""></label>
+              <input class="ghs" type="text" name="" value="">
+            </div>
+            <div class="input">
+              <label class="ghs" for=""></label>
+              <input class="ghs" type="text" name="" value="">
+            </div>
+            <div class="input">
+              <label class="ghs" for=""></label>
+              <input class="ghs" type="text" name="" value="">
+            </div>
+            <div class="input">
+              <label class="ghs" for=""></label>
+              <input class="ghs" type="text" name="" value="">
+            </div>
+          </div>
+          <div class="btn-box">
+            <button type="button" id="back2" name="button"><i class="fa-solid fa-left-long arrow"></i></button>
+            <button type="submit" id="" name="button"><i class="fa-solid fa-right-long arrow"></i></button>
+          </div>
+        </div>
+      </form>
+
+    </div>
+
+    <script type="text/javascript" src="../js/onclick.js"></script>
+    <script type="text/javascript" defer src="../js/validation.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,174 @@
+WARNING - 2023-10-09 00:40:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 00:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-09 00:40:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 00:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-09 00:45:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 00:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-09 00:45:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 00:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-09 00:46:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 00:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-09 03:15:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 03:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 03:15:03 --> Invalid file: "main/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/layout.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('main/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('barang/viewbarang', [], true)
+ 4 APPPATH\Controllers\Barang.php(22): view('barang/viewbarang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Barang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+WARNING - 2023-10-09 03:17:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 03:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 03:17:15 --> Invalid file: "main/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/layout.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('main/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('barang/viewbarang', [], true)
+ 4 APPPATH\Controllers\Barang.php(22): view('barang/viewbarang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Barang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+WARNING - 2023-10-09 03:17:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 03:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 03:17:17 --> Invalid file: "main/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/layout.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('main/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('barang/viewbarang', [], true)
+ 4 APPPATH\Controllers\Barang.php(22): view('barang/viewbarang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Barang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+WARNING - 2023-10-09 03:17:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 03:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 03:17:59 --> Invalid file: "main/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/layout.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('main/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kategori/viewkategori', [], true)
+ 4 APPPATH\Controllers\Kategori.php(21): view('kategori/viewkategori', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kategori->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+WARNING - 2023-10-09 03:18:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 03:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 03:18:02 --> Invalid file: "main/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/layout.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('main/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('barang/viewbarang', [], true)
+ 4 APPPATH\Controllers\Barang.php(22): view('barang/viewbarang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Barang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+WARNING - 2023-10-09 03:18:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 03:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-09 03:18:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 03:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-09 03:25:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 03:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-09 03:25:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 03:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-09 03:25:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 03:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-09 03:25:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 03:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-09 03:25:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-09 03:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

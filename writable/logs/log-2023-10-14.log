@@ -1,0 +1,104 @@
+WARNING - 2023-10-14 08:34:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+ERROR - 2023-10-14 08:34:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\File\code\table barang\tb_ci4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\File\code\table barang\tb_ci4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbgudang', 3306, '', 0)
+#1 D:\File\code\table barang\tb_ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\File\code\table barang\tb_ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\File\code\table barang\tb_ci4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\File\code\table barang\tb_ci4\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\File\code\table barang\tb_ci4\app\Models\Modelbarang.php(16): CodeIgniter\Model->__call('get', Array)
+#6 D:\File\code\table barang\tb_ci4\app\Controllers\Barang.php(20): App\Models\Modelbarang->tampildata()
+#7 D:\File\code\table barang\tb_ci4\system\CodeIgniter.php(919): App\Controllers\Barang->index()
+#8 D:\File\code\table barang\tb_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#9 D:\File\code\table barang\tb_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\File\code\table barang\tb_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\File\code\table barang\tb_ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\ta...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\File\code\table barang\tb_ci4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\File\code\table barang\tb_ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\File\code\table barang\tb_ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\File\code\table barang\tb_ci4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\File\code\table barang\tb_ci4\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\File\code\table barang\tb_ci4\app\Models\Modelbarang.php(16): CodeIgniter\Model->__call('get', Array)
+#5 D:\File\code\table barang\tb_ci4\app\Controllers\Barang.php(20): App\Models\Modelbarang->tampildata()
+#6 D:\File\code\table barang\tb_ci4\system\CodeIgniter.php(919): App\Controllers\Barang->index()
+#7 D:\File\code\table barang\tb_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 D:\File\code\table barang\tb_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\File\code\table barang\tb_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\File\code\table barang\tb_ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\ta...')
+#11 {main}
+CRITICAL - 2023-10-14 08:34:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`
+JOIN `kategori` ON `brgkatid`=`katid`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\Modelbarang.php(16): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Barang.php(20): App\Models\Modelbarang->tampildata()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+WARNING - 2023-10-14 08:34:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-14 08:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-14 08:34:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-14 08:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-14 08:34:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-14 08:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-14 08:40:40 --> Invalid file: "main/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/layout.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('main/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('barangmasuk/forminput', [], true)
+ 4 APPPATH\Controllers\Barangmasuk.php(11): view('barangmasuk/forminput')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Barangmasuk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+WARNING - 2023-10-14 08:40:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-14 08:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-14 08:40:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-14 08:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-14 08:40:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\File\\code\\table barang\\tb_ci4\\public\\index.php')
+INFO - 2023-10-14 08:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,21 @@
+__ci_last_regenerate|i:1697574011;_ci_previous_url|s:26:"http://localhost:8080/form";isLoggedIn|b:1;adminid|s:1:"1";username|s:5:"admin";error|s:761:"<div class="alert alert-danger alert-dismissible">
+                <h5><i class="icon fas fa-ban"></i> Error!</h5>
+                <!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Nama tidak boleh kosong</li>
+					<li>NIK tidak boleh kosong</li>
+					<li>Email tidak boleh kosong</li>
+					<li>Tempat Lahir tidak boleh kosong</li>
+					<li>Tanggal Lahir tidak boleh kosong</li>
+					<li>No HP tidak boleh kosong</li>
+					<li>Alamat tidak boleh kosong</li>
+					<li>Pekerjaan tidak boleh kosong</li>
+					<li>KTP tidak boleh kosong</li>
+					<li>File Permohonan tidak boleh kosong</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+
+              </div>";__ci_vars|a:1:{s:5:"error";s:3:"old";}
