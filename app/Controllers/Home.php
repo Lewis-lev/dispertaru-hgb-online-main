@@ -93,20 +93,6 @@ class Home extends BaseController
         }
 
         $db = \Config\Database::connect();
-        $admin = $db->table('admin')
-            ->select('adminid')
-            ->where('is_active', 1)
-            ->orderBy('adminid', 'ASC')
-            ->get()
-            ->getRowArray();
-
-        if ($admin === null) {
-            log_message('error', 'Unable to save an application because no administrator account exists.');
-            session()->setFlashdata('error', 'Permohonan belum dapat disimpan karena akun petugas belum tersedia.');
-
-            return redirect()->back()->withInput();
-        }
-
         $ktp  = $this->request->getFile('ktp');
         $file = $this->request->getFile('file_permohonan');
         $uploadDirectory = WRITEPATH . 'uploads';
@@ -146,18 +132,9 @@ class Home extends BaseController
             'file_permohonan' => $fileName,
             'status' => 0,
         ]);
-        $applicationId = $db->insertID();
         $db->table('verifikasi')->insert([
             'pemohon_id' => $pemohonId,
-            'adminid' => (int) $admin['adminid'],
-        ]);
-        $db->table('admin_work_log')->insert([
-            'application_id' => $applicationId,
-            'adminid' => (int) $admin['adminid'],
-            'action' => 'application_received',
-            'from_status' => null,
-            'to_status' => 0,
-            'created_at' => date('Y-m-d H:i:s'),
+            'adminid' => null,
         ]);
         $db->transComplete();
 

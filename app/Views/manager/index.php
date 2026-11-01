@@ -73,11 +73,13 @@
                                     $statusLabels = ['Belum diproses', 'Sedang diproses', 'Selesai'];
                                     $applicationStatus = (int) $application['application_status'];
                                     $statusClass = ['status-pending', 'status-progress', 'status-done'][$applicationStatus] ?? 'status-pending';
-                                    $actionLabel = match ($application['action']) {
-                                        'application_received' => 'Permohonan diterima',
-                                        'baseline_imported' => 'Status awal (data lama)',
-                                        default => 'Status diperbarui',
-                                    };
+                                    $actionLabel = $application['action'] === null
+                                        ? 'Menunggu diproses'
+                                        : match ($application['action']) {
+                                            'application_received' => 'Permohonan diterima',
+                                            'baseline_imported' => 'Status awal (data lama)',
+                                            default => 'Status diperbarui',
+                                        };
                                 ?>
                                 <tr>
                                     <td data-label="Kode / tanggal">
@@ -87,10 +89,10 @@
                                     <td data-label="Pemohon"><strong><?= esc($application['nama']) ?></strong></td>
                                     <td data-label="Aktivitas">
                                         <strong><?= esc($actionLabel) ?></strong>
-                                        <small>Petugas: <?= esc($application['admin_username'] ?? 'Tidak diketahui') ?></small>
+                                        <small>Petugas: <?= esc($application['admin_username'] ?? '-') ?></small>
                                     </td>
                                     <td data-label="Status saat ini"><span class="status-badge <?= esc($statusClass) ?>"><?= esc($statusLabels[$applicationStatus] ?? 'Belum diproses') ?></span></td>
-                                    <td data-label="Waktu aktivitas"><strong><?= esc(date('d M Y, H:i', strtotime($application['activity_at']))) ?></strong></td>
+                                    <td data-label="Waktu aktivitas"><strong><?= esc(date('d M Y, H:i', strtotime($application['activity_at'] ?? $application['tgl_masuk']))) ?></strong></td>
                                     <td data-label="Rincian"><a class="action-link" href="<?= base_url('manager/application/' . $application['p3_id']) ?>">Riwayat kerja</a></td>
                                 </tr>
                             <?php endforeach ?>

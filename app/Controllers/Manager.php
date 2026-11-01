@@ -167,9 +167,9 @@ class Manager extends BaseController
         }
 
         $db = \Config\Database::connect();
-        $builder = $db->table('admin_work_log')
+        $builder = $db->table('form_p3')
             ->select('admin_work_log.id AS log_id, admin_work_log.action, admin_work_log.from_status, admin_work_log.to_status, admin_work_log.created_at AS activity_at, form_p3.id AS p3_id, form_p3.kdpermohonan, form_p3.tgl_masuk, form_p3.tgl_update, form_p3.status AS application_status, pemohon.nama, admin.username AS admin_username')
-            ->join('form_p3', 'form_p3.id = admin_work_log.application_id')
+            ->join('admin_work_log', 'form_p3.id = admin_work_log.application_id', 'left')
             ->join('pemohon', 'pemohon.id = form_p3.pemohon_id')
             ->join('admin', 'admin.adminid = admin_work_log.adminid', 'left');
 
@@ -190,7 +190,7 @@ class Manager extends BaseController
             ->getResultArray();
 
         return view('manager/index', [
-            'applications' => $builder->orderBy('admin_work_log.created_at', 'DESC')->get()->getResultArray(),
+            'applications' => $builder->orderBy('COALESCE(admin_work_log.created_at, form_p3.tgl_masuk)', 'DESC', false)->get()->getResultArray(),
             'admins' => $admins,
             'status' => $status,
             'adminId' => $adminId,

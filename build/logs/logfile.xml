@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="7" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.149783">
-    <testsuite name="App" tests="7" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.149783">
-      <testsuite name="ExampleDatabaseTest" file="E:\Coding\dispertaru-hgb-online-main\tests\database\ExampleDatabaseTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.139998">
-        <testcase name="testModelFindAll" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" file="E:\Coding\dispertaru-hgb-online-main\tests\database\ExampleDatabaseTest.php" line="17" assertions="1" time="0.128221"/>
-        <testcase name="testSoftDeleteLeavesRow" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" file="E:\Coding\dispertaru-hgb-online-main\tests\database\ExampleDatabaseTest.php" line="28" assertions="2" time="0.011777"/>
+  <testsuite name="" tests="7" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.487225">
+    <testsuite name="App" tests="7" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.487225">
+      <testsuite name="ExampleDatabaseTest" file="E:\Coding\dispertaru-hgb-online-main\tests\database\ExampleDatabaseTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.443658">
+        <testcase name="testModelFindAll" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" file="E:\Coding\dispertaru-hgb-online-main\tests\database\ExampleDatabaseTest.php" line="17" assertions="1" time="0.383611"/>
+        <testcase name="testSoftDeleteLeavesRow" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" file="E:\Coding\dispertaru-hgb-online-main\tests\database\ExampleDatabaseTest.php" line="28" assertions="2" time="0.060047"/>
       </testsuite>
-      <testsuite name="ExampleSessionTest" file="E:\Coding\dispertaru-hgb-online-main\tests\session\ExampleSessionTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002521">
-        <testcase name="testSessionSimple" class="ExampleSessionTest" classname="ExampleSessionTest" file="E:\Coding\dispertaru-hgb-online-main\tests\session\ExampleSessionTest.php" line="11" assertions="1" time="0.002521"/>
+      <testsuite name="ExampleSessionTest" file="E:\Coding\dispertaru-hgb-online-main\tests\session\ExampleSessionTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.007355">
+        <testcase name="testSessionSimple" class="ExampleSessionTest" classname="ExampleSessionTest" file="E:\Coding\dispertaru-hgb-online-main\tests\session\ExampleSessionTest.php" line="11" assertions="1" time="0.007355"/>
       </testsuite>
-      <testsuite name="HealthTest" file="E:\Coding\dispertaru-hgb-online-main\tests\unit\HealthTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.004417">
-        <testcase name="testIsDefinedAppPath" class="HealthTest" classname="HealthTest" file="E:\Coding\dispertaru-hgb-online-main\tests\unit\HealthTest.php" line="13" assertions="1" time="0.001656"/>
-        <testcase name="testBaseUrlHasBeenSet" class="HealthTest" classname="HealthTest" file="E:\Coding\dispertaru-hgb-online-main\tests\unit\HealthTest.php" line="18" assertions="2" time="0.002761"/>
+      <testsuite name="HealthTest" file="E:\Coding\dispertaru-hgb-online-main\tests\unit\HealthTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.017539">
+        <testcase name="testIsDefinedAppPath" class="HealthTest" classname="HealthTest" file="E:\Coding\dispertaru-hgb-online-main\tests\unit\HealthTest.php" line="13" assertions="1" time="0.005854"/>
+        <testcase name="testBaseUrlHasBeenSet" class="HealthTest" classname="HealthTest" file="E:\Coding\dispertaru-hgb-online-main\tests\unit\HealthTest.php" line="18" assertions="2" time="0.011685"/>
       </testsuite>
-      <testsuite name="TimeFactoryTest" file="E:\Coding\dispertaru-hgb-online-main\tests\unit\TimeFactoryTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.002846">
-        <testcase name="testCreateFromTimestampPreservesFractionalSeconds" class="TimeFactoryTest" classname="TimeFactoryTest" file="E:\Coding\dispertaru-hgb-online-main\tests\unit\TimeFactoryTest.php" line="11" assertions="1" time="0.001464"/>
-        <testcase name="testCreateFromTimestampPreservesNegativeFractionsAndTimezone" class="TimeFactoryTest" classname="TimeFactoryTest" file="E:\Coding\dispertaru-hgb-online-main\tests\unit\TimeFactoryTest.php" line="18" assertions="1" time="0.001383"/>
+      <testsuite name="TimeFactoryTest" file="E:\Coding\dispertaru-hgb-online-main\tests\unit\TimeFactoryTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.018673">
+        <testcase name="testCreateFromTimestampPreservesFractionalSeconds" class="TimeFactoryTest" classname="TimeFactoryTest" file="E:\Coding\dispertaru-hgb-online-main\tests\unit\TimeFactoryTest.php" line="11" assertions="1" time="0.015385"/>
+        <testcase name="testCreateFromTimestampPreservesNegativeFractionsAndTimezone" class="TimeFactoryTest" classname="TimeFactoryTest" file="E:\Coding\dispertaru-hgb-online-main\tests\unit\TimeFactoryTest.php" line="18" assertions="1" time="0.003288"/>
       </testsuite>
     </testsuite>
   </testsuite>
