@@ -72,7 +72,7 @@
                 <strong>Dinas Pertanahan dan Tata Ruang DIY</strong>
                 <p>Layanan informasi permohonan perpanjangan dan pembaruan HGB / Hak Pakai.</p>
             </div>
-            <span>© <?= date('Y') ?> Dispertaru DIY</span>
+            <span>© <?= date('Y') ?> shofa.</span>
         </div>
     </footer>
     <script src="<?= base_url('user/js/confirm-actions.js') ?>" defer></script>
